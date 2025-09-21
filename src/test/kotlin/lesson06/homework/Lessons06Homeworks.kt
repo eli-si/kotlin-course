@@ -4,7 +4,7 @@ package lesson06.homework
 
 
 /* ЗАДАНИЕ 1 */
-/** month: номер месяца 1..12; печатает сезон на русском. */
+
 fun printSeasonByMonth(month: Int) {
     if (month !in 1..12) {
         println("Ошибка: номер месяца должен быть от 1 до 12, получено $month")
